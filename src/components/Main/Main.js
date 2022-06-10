@@ -19,10 +19,12 @@ const Main = ({ card, imageData }) => {
             <div className='mainContent'>
                 <div className='cardHighlight'>
                     <div className='cardContainer'>
-                        <img
-                            className='selectedCard'
-                            src={activeCard?.image_url}
-                            alt='' />
+                        <a href={`https://testnets.opensea.io/assets/rinkeby/0xb5d855f3c8f03cda4b909c411515d4c8e3157325/${activeCard.token_id}`} target='__blank' >
+                            <img
+                                className='selectedCard'
+                                src={activeCard?.image_url}
+                                alt='' />
+                        </a>
                     </div>
                 </div>
 
@@ -40,6 +42,7 @@ const Main = ({ card, imageData }) => {
                             <div className='ownerNameAndHandle'>
                                 <div>Address: {activeCard.owner.address}</div>
                                 <div className='ownerHandle'>Twitter:  @matthewbianco15</div>
+                                <a href='https://testnets.opensea.io/collection/mattbiancofirsttest' target='_blank' >OpenSea: https://testnets.opensea.io/collection/mattbiancofirsttest</a>
                             </div>
                             <div className='ownerLink'>
                                 <img src={instagram} alt='' />

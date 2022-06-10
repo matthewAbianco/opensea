@@ -15,6 +15,7 @@ function App() {
     useEffect(() => {
         const fetchNft = async () => {
             const openseaData = await axios.get('https://testnets-api.opensea.io/assets?asset_contract_address=0xB5d855f3c8f03CDa4b909c411515D4c8e3157325&order_direction=asc')
+            console.log(openseaData.data.assets)
             setImageData(openseaData.data.assets)
         }
         return fetchNft
