@@ -1,0 +1,15 @@
+.cardlist {
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    border-bottom: 1px solid white;
+}
+
+/* .cardlist::-webkit-scrollbar {
+    display: none;
+} */
+
+.mappedCard {
+    padding: 10px;
+} 
