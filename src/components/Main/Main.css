@@ -8,7 +8,7 @@
 .mainContent {
     display: flex;
     padding-bottom: 20px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #00ebfe;
 }
 
 .cardHighlight {
@@ -30,6 +30,14 @@
     object-fit: contain;
     width: 250px;
     height: 300px;
+}
+
+.selectedCard:hover {
+    border-radius: 50px;
+    object-fit: contain;
+    width: 250px;
+    height: 300px;
+    transform: scale(1.1);
 }
 
 .cardDetails {
@@ -75,6 +83,7 @@
     width: 100%;
 }
 
+
 .ownerDetails {
     display: flex;
     align-items: center;
@@ -86,6 +95,7 @@
     color: #00ebfe;
 }
 
+
 .ownerHandle {
     color: #00ebfe;
 }
@@ -95,8 +105,18 @@
     border-radius: 50px;
     height: 50px;
     width: 50px;
-    border: 1px solid white;
+    border: 2px solid #00ebfe;
     margin: 0 0 0 10px;
+}
+
+.ownerLink:hover {
+    padding: 12px;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    border: 2px solid #00ebfe;
+    margin: 0 0 0 10px;
+    transform: scale(1.1);
 }
 
 .ownerLink > img {
@@ -104,7 +124,15 @@
     width: 100%;
 }
 
+
+
 a {
     color: #00ebfe;
     text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+
 }

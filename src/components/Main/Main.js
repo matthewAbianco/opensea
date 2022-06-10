@@ -40,9 +40,8 @@ const Main = ({ card, imageData }) => {
 
                         <div className='ownerDetails' >
                             <div className='ownerNameAndHandle'>
-                                <div>Address: {activeCard.owner.address}</div>
-                                <div className='ownerHandle'>Twitter:  @matthewbianco15</div>
-                                <a href='https://testnets.opensea.io/collection/mattbiancofirsttest' target='_blank' >OpenSea: https://testnets.opensea.io/collection/mattbiancofirsttest</a>
+                                <div className='ownerHandle'><a href='https://twitter.com/matthewbianco15' target='_blank' >Twitter:  @matthewbianco15</a> </div>
+                                <div><a href='https://testnets.opensea.io/collection/mattbiancofirsttest' target='_blank' >OpenSea: https://testnets.opensea.io/collection/mattbiancofirsttest</a></div>
                             </div>
                             <div className='ownerLink'>
                                 <img src={instagram} alt='' />
