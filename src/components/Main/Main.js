@@ -28,7 +28,7 @@ const Main = ({ card, imageData }) => {
 
                 <div className='cardDetails'>
                     <div className='title'>{activeCard.name}</div>
-                    <span className='itemNumber'>{activeCard.token_id}</span>
+                    <span className='itemNumber'>Token #{activeCard.token_id}</span>
 
 
                     <div className='owner'>
@@ -38,8 +38,8 @@ const Main = ({ card, imageData }) => {
 
                         <div className='ownerDetails' >
                             <div className='ownerNameAndHandle'>
-                                <div>{activeCard.owner.address}</div>
-                                <div className='ownerHandle'>@matthewbianco</div>
+                                <div>Address: {activeCard.owner.address}</div>
+                                <div className='ownerHandle'>Twitter:  @matthewbianco15</div>
                             </div>
                             <div className='ownerLink'>
                                 <img src={instagram} alt='' />

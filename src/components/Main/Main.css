@@ -1,5 +1,8 @@
 .main {
     max-height: 50vh;
+    position: sticky;
+    top: 100px;
+    background-color: black;
 }
 
 .mainContent {
@@ -23,9 +26,10 @@
 }
 
 .selectedCard {
+    border-radius: 50px;
     object-fit: contain;
-    max-width: min(25vw, 30vh);
-    max-height: 30vw;
+    width: 250px;
+    height: 300px;
 }
 
 .cardDetails {

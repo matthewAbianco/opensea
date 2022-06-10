@@ -1,6 +1,15 @@
 .app {
   background-color: black;
   padding: 20px;
-  min-height: 100vh;
-  max-width: 100vw;
+
+}
+
+.header {
+  position: sticky;
+  top: 0;
+}
+
+.main {
+  position: sticky;
+  top: 200;
 }
